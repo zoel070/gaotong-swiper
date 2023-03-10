@@ -1,0 +1,21 @@
+.swiper-left{
+    position: absolute;
+    left:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.swiper-right{
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    cursor: pointer;
+}
+.swiper-wrapper{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    height: auto;
+}
